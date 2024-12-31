@@ -1,0 +1,68 @@
+body.light {
+    background-color: white;
+    color: black;
+  }
+  body.dark {
+    background-color: black;
+    color: white;
+  }
+  
+  .buttonContainer {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 10px; 
+  padding: 20px;
+  justify-content: center;
+  align-items: center;
+  background-color: #f4f4f4;
+  border-radius: 10px;
+}
+
+
+.buttonContainer button {
+  padding: 10px 20px;
+  font-size: 16px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: transform 0.2s, background-color 0.2s;
+}
+
+
+.buttonContainer .btn1 {
+  background-color: #4caf50; 
+  color: white;
+}
+
+.buttonContainer .btn2 {
+  background-color: #2196f3; 
+  color: white;
+}
+
+.buttonContainer .btn3 {
+  background-color: #ff9800;
+  color: white;
+}
+
+.buttonContainer .btn4 {
+  background-color: #9c27b0; 
+  color: white;
+}
+
+
+
+.buttonContainer button:hover {
+  transform: scale(1.05); 
+  background-color: #333; 
+  color: #fff;
+}
+
+.buttonContainer button:focus {
+  outline: 2px solid #333;
+  outline-offset: 2px;
+}
+
+input[type="file"] {
+  font-size: 16px;
+  margin-top: 10px;
+}
